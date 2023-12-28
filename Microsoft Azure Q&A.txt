@@ -1,0 +1,7 @@
+1. Can we change the size for a Virtual Machine. how to do it?
+A) Yes we can change the size for a VM as per requirement, but it required a restart. You can also write a powershell script
+to auto change the size in peak times when load increases/decreases.
+
+2. I want to create custom VM image out of a well prepared virtual machine to use it in future whenever there is same requirement. How do I can do so.
+A) -> Create a VM -> Install all required programs and applications -> RDP to that VM -> run sysprep.exe located in system32 directory in commmand prompt with administrator previliges -> complete sysprep setup and select shutdown VM after complete -> now goto VM overview in portal and then you can see a option called "capture" -> by using this option you can crate a VM custom image.
+
